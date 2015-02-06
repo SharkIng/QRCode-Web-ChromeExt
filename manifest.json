@@ -1,0 +1,23 @@
+{
+  "name": "Qrcode for current website",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Generate An Qr Code image",
+  "browser_action": {
+    "default_icon": {
+      "38": "./assets/images/icon.png",
+    },
+    "default_title": "QRCODE CHROME EXT",
+    "default_popup": "main.html"
+  },
+  "icons": {
+    "38": "./assets/images/icon.png",
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["./assets/js/main.js"],
+    "persistent": false
+  }
+}
